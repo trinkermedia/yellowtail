@@ -1,3 +1,10 @@
+import fullscreen.*;
+
+import processing.opengl.*;
+
+import tuio.*;
+
+
 /**
  * Yellowtail
  * by Golan Levin (www.flong.com). 
@@ -56,7 +63,7 @@ void setup() {
   noStroke();
 
   // Create the fullscreen object
-  //fs = new FullScreen(this); 
+ // fs = new FullScreen(this); 
   //fs.enter(); 
   // enter fullscreen mode
 
